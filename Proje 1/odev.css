@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: black;
+}
+
+h1 {
+  margin: 50px 20px;
+  cursor: pointer;
+  color: white;
+  flex: shadow 10px 15px 10px color white;
+  font-size: 50px;
+  font-family: "Bungee Shade", cursive;
+}
+.top-nav a {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(196, 163, 123);
+  border-radius: 10px;
+  margin-top: 10px;
+
+  padding: 10px;
+  width: 100px;
+
+  margin-bottom: 100px;
+  margin-right: 10px;
+  display: inline-block;
+  box-shadow: 2px 5px 5px rgb(184, 156, 122);
+  font-size: x-large;
+}
+
+.top-nav a:hover {
+  opacity: 0.5;
+  color: red;
+}
+
+p {
+  color: bisque;
+  font-family: "Rampart One", cursive;
+  font-size: 50px;
+}
+
+h2 {
+  color: white;
+  font-size: xx-large;
+}
+
+.about-me {
+  font-family: "Rampart One", cursive;
+}
+
+main {
+  margin-top: 200px;
+}
+
+.my-project {
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+.images {
+  width: 300px;
+  height: 300px;
+  border-style: solid;
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 2px 5px 5px;
+  cursor: pointer;
+}
+.images-1 {
+  width: 300px;
+  height: 300px;
+  border-style: solid;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+img:hover {
+  color: antiquewhite;
+}
+
+.contact {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-decoration: underline;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+footer div a {
+  text-decoration: none;
+  margin-top: 60px;
+  padding: 15px;
+  color: bisque;
+  font-size: 25px;
+}
+
+a:hover {
+  color: red;
+}
+h3 {
+  color: white;
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input:hover {
+  border-color: red;
+}
+
+label {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  margin-bottom: 5px;
+  font-size: larger;
+}
+
+label.send {
+  background-color: bisque;
+}
+input {
+  width: 500px;
+  padding: 20px;
+  border-radius: 5px;
+  border-color: bisque;
+}
+
+#send {
+  background-color: bisque;
+  font-size: x-large;
+}
+
+#send:hover {
+  color: red;
+}
+.popup {
+  color: white;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: bisque;
+  border: 1px solid;
+  padding: 10px;
+  width: 80px;
+  height: 50px;
+  text-align: center;
+  margin-right: 15px;
+  margin-bottom: 25px;
+  font-size: x-large;
+  border-radius: 5px;
+}
