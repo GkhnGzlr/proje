@@ -1,0 +1,21 @@
+#input {
+  margin-bottom: 0.5rem;
+  width: 22rem;
+  height: 2rem;
+  color: crimson;
+}
+#input:focus {
+  outline: 2px solid orange;
+  border: none;
+}
+body {
+  text-align: center;
+  margin-top: 10vw;
+}
+h2 {
+  color: crimson;
+}
+
+button {
+    color: crimson;
+}
