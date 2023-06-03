@@ -1,5 +1,5 @@
 function countVowels() {
-  let str = document.getElementById("input").value;
+  let str = document.getElementById("vowels").value;
   let matches = str.match(/[aeiou]/gi);
   let count = matches ? matches.length : 0;
   document.getElementById("result").innerHTML =
