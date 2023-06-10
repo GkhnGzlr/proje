@@ -1,56 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap-Web-Page</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
-</head>
-<body>
-        <!-- //?------------------------------NAVBAR--------------------------------- -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Harvey</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid ms-5 me-5">
+        <a class="navbar-brand" href="#">Harvey Tech</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse me-5" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="#">Potfolio</a>
+            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link" href="#">Staff</a>
+            <a class="nav-link" href="#">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- ******************nav menu -->
+    <!-- ******************main area -->
+    <section id="section" class="text-center">
+      <p class="display-6">The IT Career of Your Dreams Starts Here!</p>
+      <h1 class="display-1">Harvey Tech!</h1>
+      <button type="button" class="btn btn-danger btn-lg">Our Services</button>
+    </section>
+    <!-- ******************main area -->
+    <!-- ******************services area -->
+    <section id="services" class="text-center">
+      <h2 class="display-1 mt-5">Services</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate,
+        doloribus.
+      </p>
+      <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+        <div class="col">
+          <div class="h-100">
+            <i
+              class="fas fa-code fa-4x text-light bg-danger m-auto rounded-circle d-flex justify-content-center align-items-center"
+            ></i>
+            <div class="card-body mt-3">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Dolorum, incidunt!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="h-100">
+            <i
+              class="fas fa-palette fa-6x text-light bg-danger m-auto rounded-circle d-flex justify-content-center align-items-center"
+            ></i>
+            <div class="card-body mt-3">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed,
+                quam.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="h-100">
+            <i
+              class="fas fa-network-wired fa-4x text-light bg-danger m-auto rounded-circle d-flex justify-content-center align-items-center"
+            ></i>
+            <div class="card-body mt-3">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Corporis, vero.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ****************** portfolio area -->
+    <section id="portfolio" class="text-center bg-light mx-5">
+      <h2 class="display-1 mt-5">Portfolio</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident et
+        porro debitis consequuntur quo dignissimos id ipsam reprehenderit non
+        eos?
+      </p>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="./img/aws_720.jpg"
+              class="card-img-top"
+              alt="prt1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="./img/cs_720.jpg"
+              class="card-img-top"
+              alt="prt2"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a short card.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="./img/datascience_720.jpg"
+              class="card-img-top"
+              alt="prt3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="./img/fs_720.jpg"
+              class="card-img-top"
+              alt="prt4"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="./img/salesforce_720.jpg"
+              class="card-img-top"
+              alt="prt5"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="./img/sdet_720.jpg"
+              class="card-img-top"
+              alt="prt6"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ****************** portfolio area -->
+    <!-- ****************** about area -->
+    <section id="about" class="text-center mx-5">
+      <h2 class="display-1 mt-5">About us</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis,
+        nostrum.
+      </p>
+      <section class=" d-flex flex-wrap-reverse">
+        <article class="col-md-6">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+            soluta modi tenetur, inventore voluptatem repellat!
+          </p>
+          <p>
+            Saepe, quod? Autem expedita ea asperiores quidem voluptatibus
+            obcaecati tempora inventore enim? Delectus, eligendi voluptate.
+          </p>
+          <p>
+            Eius autem, repellat atque nulla alias tempore aliquid maxime cum
+            possimus dolorem perspiciatis vero nam!
+          </p>
+          <p>
+            Nemo adipisci dolores quo illum suscipit. Cumque vitae sed culpa hic
+            voluptatum reiciendis similique nulla.
+          </p>
+        </article>
+        <section class="col-md-6">
+          <img class="" src="./img/aboutus.jpeg" width="100%" alt="" />
+        </section>
+      </section>
+    </section>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark m-auto">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Hervey Tech</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse ms-auto" id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-auto">
-              <a class="nav-link active" aria-current="page" href="#">Services</a>
-              <a class="nav-link active" href="#">Portfolia</a>
-              <a class="nav-link active" href="#">About Us</a>
-              <a class="nav-link active" href="#">Staff</a>
-              <a class="nav-link active" href="#">Contact Us</a>
-            </div>
-          </div>
-        </div>
-      </nav>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="./img/banner.jpeg" class="d-block w-100" alt="img1" />
-          <div class="carousel-caption d-none d-sm-block">
-            <h5>The Career of Your Dream Starts Here!</h5>
-            <h2>Harvey Tech!</h2>
-            <div>
-              <button class="btn btn-danger mb-2">Our Services</button>
-              
-            </div>
-          </div>
-        </div>
-</body>
+    
+    <!-- ****************** about area -->
+    <!-- *******************script area  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
